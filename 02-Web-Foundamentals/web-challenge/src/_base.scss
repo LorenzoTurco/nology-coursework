@@ -1,25 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 
 $font-logo: 'Boogaloo';
-
+$app-font: "Lato", sans-serif;
 $dark-blue: RGB(57, 65, 102);
-
 $light-blue:RGB(27, 184, 242);
 
-$app-font: "Lato", sans-serif;
-
-
 *{margin-top:3%;}
-
 
 .dark-blue{
     color:$dark-blue;
     font-family: $app-font;
-    
 }
 
 .light-blue{
     color:$light-blue;
     font-family: $app-font;
 }
-
