@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+* {
+  margin-top: 3%;
+}
+
+.dark-blue {
+  color: RGB(57, 65, 102);
+  font-family: "Lato", sans-serif;
+}
+
+.light-blue {
+  color: RGB(27, 184, 242);
+  font-family: "Lato", sans-serif;
+}
+
+.section1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  height: 80px;
+  margin: 30px auto;
+  margin-bottom: 20%;
+  color: black;
+  font-weight: bold;
+}
+.section1 .logo-text {
+  color: RGB(57, 65, 102);
+  font-family: "Boogaloo";
+  font-size: 3em;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.section1 .login {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 6%;
+  background-color: white;
+  border: 2px solid RGB(57, 65, 102);
+  border-radius: 10%;
+}
+.section1 .login .login-button {
+  background-color: white;
+  border: none;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.section2 {
+  margin-bottom: 10%;
+}
+
+.section3 {
+  margin-bottom: 15%;
+}
+
+main {
+  width: 85%;
+  height: auto;
+  margin: 35px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aquamarine;
+}
+main .button {
+  background-color: RGB(57, 65, 102);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 10%;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+main .grid-section {
+  width: 100%;
+}
+main .grid-section .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3%;
+  text-align: left;
+}
+main .grid-section .grid-container .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 1.3em;
+  text-align: center;
+}
+main .grid-section .grid-container .grid-item .text {
+  display: inline;
+}
+main .grid-section .grid-container .grid-item .bold {
+  font-weight: bold;
+  display: inline;
+}
+main .grid-section .grid-container .grid-item .thin-italic {
+  font-style: italic;
+  font-weight: 100;
+  display: inline;
+}
+
+footer {
+  background-color: RGB(255, 252, 221);
+}
+footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-container .footer-link {
+  text-decoration: none;
+  color: RGB(57, 65, 102);
+}
